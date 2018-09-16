@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_theam"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.nawal.diaryapp.mainfolder.InputUserInfoActivity">
+    <ProgressBar android:id="@+id/login_progress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/authentication_iuilayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+        </View>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <EditText
+
+                android:id="@+id/username_iuilayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="@string/hint_usermobileno"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:background="@drawable/edittext_rounded_corners"/>
+            <View
+                android:layout_below="@+id/username_iuilayout"
+                android:id="@+id/view1_iuilayout"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                >
+
+            </View>
+            <EditText
+                android:layout_below="@+id/view1_iuilayout"
+                android:id="@+id/userotp_iuilayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="@string/hint_usercodeno"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:background="@drawable/edittext_rounded_corners"/>
+            <View
+                android:layout_below="@+id/userotp_iuilayout"
+                android:id="@+id/view2_iuilayout"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                >
+
+            </View>
+            <TextView
+                android:layout_below="@+id/view2_iuilayout"
+                android:id="@+id/button1_iuilayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/enter_userinfo"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:background="@drawable/button_rounded_corners"/>
+            <TextView
+                android:layout_below="@+id/button1_iuilayout"
+                android:id="@+id/message1_iuilayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:visibility="gone"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+        </View>
+
+
+    </LinearLayout>
+
+</FrameLayout>

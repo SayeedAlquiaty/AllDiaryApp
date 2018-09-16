@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_theam"
+    tools:context="com.nawal.diaryapp.mainfolder.InputSchoolActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        </View>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/edit1_islayout"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:hint="@string/hint_schoolno"
+            android:gravity="center"
+            android:maxEms="6"
+            android:background="@drawable/edittext_rounded_corners"/>
+        <View
+            android:id="@+id/view1_islayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edit1_islayout">
+
+        </View>
+        <TextView
+            android:id="@+id/textview1_islayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/view1_islayout"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:text="@string/enter_school"
+            android:gravity="center"
+            android:background="@drawable/button_rounded_corners"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+    </View>
+
+</LinearLayout>

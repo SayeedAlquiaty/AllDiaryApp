@@ -1,0 +1,10 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="edittext_background">#fef9ff</color>
+    <color name="app_theam">#ffa6c2f7</color>
+    <color name="ribon_theam">#77979796</color>
+    <color name="text_theam">#ff2b2b2b</color>
+    <color name="white_background">#fff7f6f2</color>
+
+</resources>

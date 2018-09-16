@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">School Diary App</string>
+
+    <string name="title_activity_main">School Diary App</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="parent_button">I Am Parent</string>
+    <string name="teacher_button">I Am Teacher</string>
+    <string name="find_button">Find</string>
+    <string name="write_button">Write Diary Notes</string>
+    <string name="read_button">Read Diary Notes</string>
+    <string name="camera_button">Photo or Video</string>
+    <string name="gallery_button">Choose from Gallery</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="dummy_content">Tap Here to build Notes</string>
+    <string name="title_activity_city">Pick Your City</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Show Settings</string>
+    <string name="action_mode">Change Mode</string>
+    <string name="action_city">Change City</string>
+    <string name="action_school">Change School</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_school">SchoolActivity</string>
+    <string name="title_activity_welcome">School Diary App</string>
+    <string name="title_activity_wdiary">Diary Notes</string>
+
+    <string name="my_preferences">MYPREFS</string>
+    <string name="mode">MODE</string>
+    <string name="parent_mode">PARENT</string>
+    <string name="teacher_mode">TEACHER</string>
+    <string name="city_name">CITY</string>
+    <string name="school_name">SCHOOL</string>
+    <string name="login_name">LOGINNAME</string>
+
+
+    <string name="hint_diaryno">Enter diary number</string>
+    <string name="hint_schoolno">Enter School Code</string>
+    <string name="hint_usermobileno">Enter Registered Mobile No</string>
+    <string name="hint_usercodeno">Enter 6 digit Code</string>
+    <string name="sendee_next">Next ></string>
+    <string name="student_add">Add</string>
+    <string name="student_remove">Remove</string>
+    <string name="submit_go">Submit</string>
+    <string name="setup_prev"> Prev </string>
+    <string name="setup_save_login">Save/Login</string>
+    <string name="setup_next">Next</string>
+
+    <string name="enter_school">Continue</string>
+    <string name="enter_userinfo">Enter</string>
+
+    <string-array name="city_array">
+        <item>DELHI</item>
+        <item>MUMBAI</item>
+        <item>CHENNAI</item>
+        <item>KOLKATA</item>
+        <item>HYDERABAD</item>
+        <item>BANGALORU</item>
+        <item>PUNE</item>
+        <item>NOIDA</item>
+        <item>Lukhnow</item>
+        <item>CHANDIGADH</item>
+        <item>COCHIN</item>
+        <item>WARANGAL</item>
+        <item>AHMADABAD</item>
+        <item>BHOPAL</item>
+    </string-array>
+    <string name="title_activity_sendee">SendeeActivity</string>
+    <string name="title_activity_submit">SubmitActivity</string>
+    <string name="title_activity_setup">SetupActivity</string>
+    <string name="title_activity_parent">ParentActivity</string>
+    <string name="title_activity_diary">DiaryActivity</string>
+
+</resources>
